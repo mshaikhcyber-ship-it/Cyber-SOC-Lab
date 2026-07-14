@@ -143,3 +143,10 @@ To improve the detection of Password Spraying attacks, the following enhancement
 - Continuous monitoring of authentication events enables early detection and faster incident response.
 - Regular review of privileged accounts and authentication logs improves overall security posture.
 - Well-defined SOC investigation procedures help analysts quickly validate alerts and reduce false positives.
+
+# 15. References
+- MITRE ATT&CK Framework – T1110.003 (Password Spraying)
+- Microsoft Security Documentation – Password Spray Attacks
+- NIST Cybersecurity Framework (CSF)
+- OWASP Authentication Security Guidelines
+- Enterprise SOC Investigation Best Practices
