@@ -150,3 +150,14 @@ To improve the detection of Password Spraying attacks, the following enhancement
 - NIST Cybersecurity Framework (CSF)
 - OWASP Authentication Security Guidelines
 - Enterprise SOC Investigation Best Practices
+
+# 16. Analyst Notes
+This investigation reinforced the importance of correlating authentication events across multiple log sources rather than relying on a single alert. Although no successful compromise was identified, the attack demonstrated how Password Spraying can be an effective initial access technique if weak passwords or inadequate authentication controls exist.
+
+From an analyst's perspective, validating authentication logs, reviewing endpoint telemetry, and correlating threat intelligence provided confidence in the investigation outcome. This case also highlighted the value of continuous monitoring, strong password policies, and Multi-Factor Authentication (MFA) in defending against credential-based attacks.
+
+**Case Status:** True Positive
+
+**Severity:** High
+
+**Analyst Recommendation:** Continue monitoring authentication-related alerts, regularly tune SIEM detection rules, and perform periodic reviews of authentication security controls.
