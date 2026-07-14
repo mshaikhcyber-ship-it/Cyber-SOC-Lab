@@ -50,3 +50,14 @@ Password Spraying is commonly observed in enterprise environments and is often a
 7. Assessed the overall impact by identifying the number of targeted accounts, privileged accounts involved, and any evidence of successful authentication.
 
 8. Documented investigation findings and escalated the incident according to the organization's incident response procedures when required.
+
+9. # 5. Timeline of Events
+10. | Time (UTC) | Event |
+|------------|-------|
+| 09:15 | Seceon SIEM generated an alert for multiple failed authentication attempts. |
+| 09:17 | SOC Analyst acknowledged the alert and initiated investigation. |
+| 09:22 | Authentication logs were reviewed to validate the alert. |
+| 09:28 | Source IP reputation was verified using threat intelligence sources. |
+| 09:35 | Trellix EDR telemetry was reviewed for affected endpoints. |
+| 09:42 | No successful compromise or malicious endpoint activity was identified. |
+| 09:48 | Investigation findings were documented and monitoring recommendations were provided. |
