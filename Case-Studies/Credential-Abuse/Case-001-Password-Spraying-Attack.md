@@ -118,3 +118,11 @@ Based on the investigation, the overall impact was assessed as **Low**, as no ev
 - Confirmed that Multi-Factor Authentication (MFA) was enabled for affected users where applicable.
 - Increased monitoring for similar authentication events to detect repeated attack attempts.
 
+# 12. Remediation
+- Enforce strong password policies across all enterprise accounts.
+- Implement Multi-Factor Authentication (MFA) for all privileged and standard user accounts.
+- Configure account lockout policies to reduce repeated authentication attempts.
+- Continuously monitor authentication logs for abnormal login patterns.
+- Conduct regular user awareness training on password security and account protection.
+- Periodically review privileged accounts and remove unnecessary access.
+- Integrate threat intelligence feeds to proactively identify malicious IP addresses.
