@@ -1,34 +1,32 @@
 # SOC Case Study Template
 
-## Case Information
+---
 
-**Case ID:**
+# 1. Executive Summary
 
-**Date:**
-
-**Severity:**
-
-**Status:**
+Provide a concise overview of the incident, including what happened, how it was detected, and the overall outcome.
 
 ---
 
-# Alert Summary
+# 2. Attack Overview
 
-Brief description of the alert.
-
----
-
-# Initial Investigation
-
-- Alert Source:
-- Hostname:
-- Username:
-- IP Address:
-- Detection Time:
+Describe the attack technique, attacker objective, and affected assets.
 
 ---
 
-# Investigation Steps
+# 3. Detection Source
+
+- SIEM:
+- EDR:
+- IDS/IPS:
+- User Report:
+- Other:
+
+---
+
+# 4. Investigation Process
+
+Document the investigation step-by-step.
 
 1.
 2.
@@ -37,38 +35,75 @@ Brief description of the alert.
 
 ---
 
-# Indicators of Compromise (IOC)
+# 5. Timeline of Events
 
-- IP Address
-- Domain
-- URL
-- File Hash
-- Process Name
+| Time | Activity |
+|------|----------|
+| | |
 
 ---
 
-# MITRE ATT&CK Mapping
+# 6. Evidence Collected
 
-| Technique | Description |
-|-----------|-------------|
-| TXXXX | Example |
-
----
-
-# Root Cause
-
----
-
-# Containment
+- Logs
+- Alerts
+- Screenshots
+- Process Tree
+- Command Line
+- Network Connections
 
 ---
 
-# Remediation
+# 7. Indicators of Compromise (IOC)
+
+| Type | Value |
+|------|-------|
+| IP | |
+| Domain | |
+| URL | |
+| Hash | |
+| Process | |
 
 ---
 
-# Lessons Learned
+# 8. MITRE ATT&CK Mapping
+
+| Technique ID | Technique |
+|--------------|-----------|
+| | |
 
 ---
 
-# References
+# 9. Root Cause
+
+---
+
+# 10. Impact Assessment
+
+---
+
+# 11. Containment Actions
+
+---
+
+# 12. Remediation
+
+---
+
+# 13. Detection Improvement
+
+Explain how this attack could be detected faster or prevented in the future.
+
+---
+
+# 14. Lessons Learned
+
+---
+
+# 15. References
+
+---
+
+# 16. Analyst Notes
+
+Include personal observations, challenges faced during investigation, and key takeaways.
