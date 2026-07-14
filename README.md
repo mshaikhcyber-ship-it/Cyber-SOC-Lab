@@ -75,4 +75,63 @@ T1110.003
 - 🔄 Windows Security
 - 🔄 IOC Repository
 
+# 🛠️ Skills & Technologies
+
+## Security Operations
+
+- SIEM Monitoring
+- Incident Triage
+- Threat Analysis
+- Log Analysis
+- Incident Response
+- Detection Engineering
+- Threat Hunting
+- IOC Analysis
+
 ---
+
+## Security Tools
+
+- Seceon SIEM
+- Trellix EDR
+- Tenable.SC
+- MotaData
+- Windows Event Viewer
+- Microsoft Defender
+- VirusTotal
+- Hybrid Analysis
+- Any.Run
+
+---
+
+## Frameworks
+
+- MITRE ATT&CK
+- Cyber Kill Chain
+- NIST Cybersecurity Framework
+- OWASP Top 10
+
+---
+
+## Operating Systems
+
+- Windows
+- Linux
+
+---
+
+## Scripting
+
+- PowerShell (Learning)
+- Python (Learning)
+
+---
+
+## Networking
+
+- TCP/IP
+- DNS
+- HTTP/HTTPS
+- RDP
+- SMB
+- LDAP
