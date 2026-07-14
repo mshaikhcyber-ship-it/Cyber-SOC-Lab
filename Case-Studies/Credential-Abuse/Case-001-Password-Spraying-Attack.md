@@ -51,8 +51,8 @@ Password Spraying is commonly observed in enterprise environments and is often a
 
 8. Documented investigation findings and escalated the incident according to the organization's incident response procedures when required.
 
-9. # 5. Timeline of Events
-10. | Time (UTC) | Event |
+# 5. Timeline of Events
+| Time (UTC) | Event |
 |------------|-------|
 | 09:15 | Seceon SIEM generated an alert for multiple failed authentication attempts. |
 | 09:17 | SOC Analyst acknowledged the alert and initiated investigation. |
