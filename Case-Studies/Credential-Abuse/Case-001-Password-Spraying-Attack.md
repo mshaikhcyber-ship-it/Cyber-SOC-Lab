@@ -10,9 +10,21 @@ The investigation involved reviewing authentication logs, analyzing source IP ac
 > **Note:** This case study is based on a sanitized enterprise scenario. All sensitive information has been removed for educational purposes.
 
 # 2. Attack Overview
+Password Spraying is a credential-based attack in which an attacker attempts to authenticate against multiple user accounts using a small number of commonly used passwords.
 
----
+Unlike a traditional brute-force attack, where many passwords are tested against a single account, Password Spraying distributes authentication attempts across many accounts. This approach helps attackers avoid account lockout policies while increasing the likelihood of compromising weak passwords.
 
+### Common Objectives
+
+- Gain unauthorized access to enterprise accounts
+- Bypass account lockout thresholds
+- Identify users with weak passwords
+- Establish an initial foothold within the environment
+- Perform privilege escalation or lateral movement after successful authentication
+
+### Why It Matters
+
+Password Spraying is commonly observed in enterprise environments and is often an early stage of larger cyber attacks, including ransomware, business email compromise (BEC), and data exfiltration campaigns.
 # 3. Detection Source
 
 ...
