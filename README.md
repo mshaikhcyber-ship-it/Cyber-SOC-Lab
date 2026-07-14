@@ -76,6 +76,40 @@ T1110.003
 - 🔄 IOC Repository
 
 # 🛠️ Skills & Technologies
+# 📊 Portfolio Dashboard
+
+| Category | Progress |
+|----------|----------:|
+| SOC Case Studies | 01 |
+| Threat Hunting Reports | 00 |
+| Detection Engineering Use Cases | 00 |
+| Incident Response Playbooks | 00 |
+| IOC Collections | 00 |
+| MITRE ATT&CK Techniques Covered | 03 |
+| Security Tools Documented | 04 |
+| Blue Team Labs | 00 |
+
+---
+
+## 🎯 Current Focus
+
+- Security Operations (SOC)
+- Detection Engineering
+- Threat Hunting
+- Incident Response
+- Windows Security
+- Enterprise Log Analysis
+
+---
+
+## 🚀 2026 Goals
+
+- Complete 25 Enterprise SOC Case Studies
+- Complete 20 Threat Hunting Reports
+- Create 15 Incident Response Playbooks
+- Learn Sigma Rule Development
+- Learn Detection Engineering
+- Advance to SOC Analyst L2
 
 ## Security Operations
 
