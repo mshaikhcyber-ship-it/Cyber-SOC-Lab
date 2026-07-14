@@ -95,3 +95,17 @@ Password Spraying is commonly observed in enterprise environments and is often a
 The investigation determined that the alert was triggered by a Password Spraying attack targeting multiple enterprise user accounts. The attacker attempted to authenticate using a limited set of commonly used passwords across several accounts to avoid triggering traditional account lockout mechanisms.
 
 No evidence of a successful account compromise was identified during the investigation. The attack highlighted the importance of strong password policies, Multi-Factor Authentication (MFA), and continuous monitoring of authentication events.
+
+# 10. Impact Assessment
+The investigation confirmed that multiple enterprise user accounts were targeted; however, no successful authentication or unauthorized access was identified.
+
+Potential business risks if the attack had succeeded included:
+
+- Unauthorized access to enterprise resources
+- Privilege escalation
+- Lateral movement within the environment
+- Data theft or data exfiltration
+- Business Email Compromise (BEC)
+- Deployment of ransomware or other malicious payloads
+
+Based on the investigation, the overall impact was assessed as **Low**, as no evidence of compromise was observed.
