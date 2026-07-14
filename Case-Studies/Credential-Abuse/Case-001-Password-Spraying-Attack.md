@@ -1,6 +1,23 @@
-# SOC Case Study
+# Case Study #001 – Password Spraying Attack
+
+# Case Study #001 – Password Spraying Attack
+
+| Field | Value |
+|-------|-------|
+| Case ID | CS-001 |
+| Category | Credential Abuse |
+| Attack Type | Password Spraying |
+| Severity | High |
+| Case Status | True Positive |
+| MITRE ATT&CK | T1110.003 |
+| Primary Platform | Seceon SIEM |
+| Supporting Tools | Trellix EDR, Windows Security Logs |
+| Analyst | Muzaffar Moosa |
+| Report Version | 1.0 |
 
 ---
+
+# 1. Executive Summary
 
 # 1. Executive Summary
 A Password Spraying attack was detected after multiple authentication attempts targeted multiple enterprise user accounts using a limited set of commonly used passwords. The activity was identified through continuous security monitoring and triggered an investigation to determine whether any user accounts had been successfully compromised.
