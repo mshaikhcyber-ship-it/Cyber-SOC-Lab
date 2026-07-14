@@ -169,3 +169,18 @@ T1110.003
 - RDP
 - SMB
 - LDAP
+
+# 📚 Enterprise Case Study Index
+
+| ID | Case Study | Category | Severity | MITRE ATT&CK | Status |
+|----|------------|----------|----------|--------------|--------|
+| CS-001 | Password Spraying Attack | Credential Abuse | High | T1110.003 | ✅ Completed |
+| CS-002 | Ransomware Investigation | Malware | Critical | T1486 | 🚧 Planned |
+| CS-003 | Insider Threat Investigation | Insider Threat | Medium | T1078 | 🚧 Planned |
+| CS-004 | Data Exfiltration Investigation | Data Exfiltration | High | T1041 | 🚧 Planned |
+| CS-005 | Phishing Email Investigation | Phishing | Medium | T1566 | 🚧 Planned |
+| CS-006 | Brute Force Authentication Attack | Credential Abuse | Medium | T1110.001 | 🚧 Planned |
+| CS-007 | Zero-Day Exploit Investigation | Exploitation | Critical | T1190 | 🚧 Planned |
+| CS-008 | Malware Execution Investigation | Malware | High | T1204 | 🚧 Planned |
+| CS-009 | PowerShell Suspicious Activity | Execution | High | T1059.001 | 🚧 Planned |
+| CS-010 | Privilege Escalation Investigation | Privilege Escalation | Critical | T1068 | 🚧 Planned |
