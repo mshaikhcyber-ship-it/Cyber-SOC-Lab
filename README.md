@@ -24,6 +24,48 @@ This repository is built as a long-term cybersecurity knowledge base and contain
 ---
 
 ## 🚀 Current Progress
+---
+
+# 📂 Repository Structure
+
+```text
+Cyber-SOC-Lab
+│
+├── Case-Studies
+│   ├── Credential-Abuse
+│   ├── Phishing
+│   ├── Malware
+│   ├── Ransomware
+│   ├── Insider-Threat
+│   └── Data-Exfiltration
+│
+├── Threat-Hunting
+├── Detection-Engineering
+├── Playbooks
+├── IOC-Repository
+├── Windows-Security
+└── MITRE-ATTACK
+```
+
+---
+
+# 📖 Featured Case Study
+
+✅ Case Study #001 – Password Spraying Attack
+
+Category:
+Credential Abuse
+
+Status:
+Completed
+
+Platform:
+Seceon SIEM
+
+MITRE:
+T1110.003
+
+---
 
 - ✅ SOC Case Studies
 - 🔄 Threat Hunting
