@@ -136,3 +136,10 @@ To improve the detection of Password Spraying attacks, the following enhancement
 - Enable continuous monitoring of privileged account authentication events.
 - Use behavioral analytics to detect deviations from normal user login patterns.
 - Regularly review and fine-tune detection rules to minimize false positives while maintaining effective visibility.
+
+# 14. Lessons Learned
+- Password Spraying attacks often target multiple user accounts with a small set of common passwords, making them difficult to detect without proper correlation rules.
+- Strong password policies and Multi-Factor Authentication (MFA) significantly reduce the risk of successful credential-based attacks.
+- Continuous monitoring of authentication events enables early detection and faster incident response.
+- Regular review of privileged accounts and authentication logs improves overall security posture.
+- Well-defined SOC investigation procedures help analysts quickly validate alerts and reduce false positives.
