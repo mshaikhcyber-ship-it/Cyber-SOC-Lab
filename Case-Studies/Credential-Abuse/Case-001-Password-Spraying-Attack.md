@@ -73,3 +73,13 @@ Password Spraying is commonly observed in enterprise environments and is often a
 - Authentication Timeline
 - Threat Intelligence Lookup Results
 
+# 7. Indicators of Compromise (IOC)
+| IOC Type | Value | Status |
+|----------|-------|--------|
+| Source IP | XXX.XXX.XXX.XXX | Suspicious |
+| Target Accounts | Multiple Enterprise User Accounts | Targeted |
+| Authentication Method | Username & Password | Observed |
+| Failed Login Attempts | Multiple | Confirmed |
+| Account Lockout | Yes | Observed |
+| Successful Login | None | Not Observed |
+| Endpoint Activity | No Malicious Activity Detected | Verified |
