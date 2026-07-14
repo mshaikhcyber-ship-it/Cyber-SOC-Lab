@@ -90,3 +90,8 @@ Password Spraying is commonly observed in enterprise environments and is often a
 | T1110.003 | Password Spraying | Multiple accounts targeted using a small set of common passwords. |
 | T1078 | Valid Accounts | If credentials were successfully obtained, attackers could use legitimate accounts for unauthorized access. |
 | T1589 | Gather Victim Identity Information *(Possible Reconnaissance)* | Attackers may collect usernames before launching a Password Spraying attack. |
+
+# 9. Root Cause
+The investigation determined that the alert was triggered by a Password Spraying attack targeting multiple enterprise user accounts. The attacker attempted to authenticate using a limited set of commonly used passwords across several accounts to avoid triggering traditional account lockout mechanisms.
+
+No evidence of a successful account compromise was identified during the investigation. The attack highlighted the importance of strong password policies, Multi-Factor Authentication (MFA), and continuous monitoring of authentication events.
