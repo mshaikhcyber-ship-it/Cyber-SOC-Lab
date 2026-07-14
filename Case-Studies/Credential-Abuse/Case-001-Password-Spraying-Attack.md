@@ -26,5 +26,10 @@ Unlike a traditional brute-force attack, where many passwords are tested against
 
 Password Spraying is commonly observed in enterprise environments and is often an early stage of larger cyber attacks, including ransomware, business email compromise (BEC), and data exfiltration campaigns.
 # 3. Detection Source
-
-...
+| Source | Details |
+|--------|---------|
+| SIEM | Seceon SIEM generated an alert after detecting multiple failed authentication attempts across several user accounts from a single external source. |
+| EDR | Trellix EDR was reviewed to identify any suspicious endpoint activity related to the affected accounts. No malicious endpoint execution was observed during the investigation. |
+| Authentication Logs | Windows authentication logs were analyzed to verify failed logon attempts, account lockout events, and login patterns. |
+| Threat Intelligence | The source IP address was checked against publicly available threat intelligence sources to identify any known malicious reputation. |
+| Analyst Validation | The SOC analyst correlated authentication events, timestamps, affected users, and source information before determining the severity and next response actions. |
