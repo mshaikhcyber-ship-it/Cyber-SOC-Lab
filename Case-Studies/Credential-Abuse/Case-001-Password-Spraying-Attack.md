@@ -126,3 +126,13 @@ Based on the investigation, the overall impact was assessed as **Low**, as no ev
 - Conduct regular user awareness training on password security and account protection.
 - Periodically review privileged accounts and remove unnecessary access.
 - Integrate threat intelligence feeds to proactively identify malicious IP addresses.
+
+# 13. Detection Improvement
+To improve the detection of Password Spraying attacks, the following enhancements are recommended:
+
+- Configure SIEM correlation rules to detect multiple failed login attempts across different user accounts from the same source IP.
+- Implement alert thresholds for abnormal authentication behavior.
+- Integrate threat intelligence feeds to identify known malicious IP addresses.
+- Enable continuous monitoring of privileged account authentication events.
+- Use behavioral analytics to detect deviations from normal user login patterns.
+- Regularly review and fine-tune detection rules to minimize false positives while maintaining effective visibility.
