@@ -83,3 +83,10 @@ Password Spraying is commonly observed in enterprise environments and is often a
 | Account Lockout | Yes | Observed |
 | Successful Login | None | Not Observed |
 | Endpoint Activity | No Malicious Activity Detected | Verified |
+
+# 8. MITRE ATT&CK Mapping
+| Technique ID | Technique | Why It Applies |
+|--------------|-----------|----------------|
+| T1110.003 | Password Spraying | Multiple accounts targeted using a small set of common passwords. |
+| T1078 | Valid Accounts | If credentials were successfully obtained, attackers could use legitimate accounts for unauthorized access. |
+| T1589 | Gather Victim Identity Information *(Possible Reconnaissance)* | Attackers may collect usernames before launching a Password Spraying attack. |
