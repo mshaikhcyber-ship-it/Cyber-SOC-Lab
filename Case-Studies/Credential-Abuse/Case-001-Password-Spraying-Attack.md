@@ -33,3 +33,20 @@ Password Spraying is commonly observed in enterprise environments and is often a
 | Authentication Logs | Windows authentication logs were analyzed to verify failed logon attempts, account lockout events, and login patterns. |
 | Threat Intelligence | The source IP address was checked against publicly available threat intelligence sources to identify any known malicious reputation. |
 | Analyst Validation | The SOC analyst correlated authentication events, timestamps, affected users, and source information before determining the severity and next response actions. |
+
+# 4. Investigation Process
+1. Received a high-severity alert from Seceon SIEM indicating multiple failed authentication attempts across several user accounts.
+
+2. Reviewed the alert details, including timestamp, source IP address, destination systems, affected user accounts, and authentication method.
+
+3. Correlated authentication events within the SIEM to determine whether the activity matched a Password Spraying attack pattern.
+
+4. Verified Windows authentication logs to identify failed logon attempts, account lockout events, and any successful logins from the same source.
+
+5. Reviewed Trellix EDR telemetry on affected endpoints to identify suspicious processes, malware execution, persistence mechanisms, or abnormal user activity.
+
+6. Checked the source IP address using threat intelligence platforms to determine whether it had been previously associated with malicious activity.
+
+7. Assessed the overall impact by identifying the number of targeted accounts, privileged accounts involved, and any evidence of successful authentication.
+
+8. Documented investigation findings and escalated the incident according to the organization's incident response procedures when required.
