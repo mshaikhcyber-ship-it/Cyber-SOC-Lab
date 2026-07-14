@@ -1,51 +1,15 @@
-# Case Study #001 – Password Spraying Attack
-
-## Case Summary
+# SOC Case Study
 
 ---
 
-## Alert Details
+# 1. Executive Summary
 
 ---
 
-## Initial Triage
+# 2. Attack Overview
 
 ---
 
-## Investigation Timeline
+# 3. Detection Source
 
----
-
-## IOC Analysis
-
----
-
-## MITRE ATT&CK Mapping
-
----
-
-## Findings
-
----
-
-## Root Cause
-
----
-
-## Impact Assessment
-
----
-
-## Containment Actions
-
----
-
-## Remediation
-
----
-
-## Lessons Learned
-
----
-
-## References
+...
