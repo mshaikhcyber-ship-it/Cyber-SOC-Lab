@@ -61,3 +61,15 @@ Password Spraying is commonly observed in enterprise environments and is often a
 | 09:35 | Trellix EDR telemetry was reviewed for affected endpoints. |
 | 09:42 | No successful compromise or malicious endpoint activity was identified. |
 | 09:48 | Investigation findings were documented and monitoring recommendations were provided. |
+
+# 6. Evidence Collected
+- Seceon SIEM authentication alert
+- Windows Security Event Logs
+- Failed Logon Events
+- Source IP Address
+- User Account Activity
+- Account Lockout Logs
+- Trellix EDR Endpoint Telemetry
+- Authentication Timeline
+- Threat Intelligence Lookup Results
+
