@@ -109,3 +109,12 @@ Potential business risks if the attack had succeeded included:
 - Deployment of ransomware or other malicious payloads
 
 Based on the investigation, the overall impact was assessed as **Low**, as no evidence of compromise was observed.
+
+# 11. Containment Actions
+- Monitored the source IP for additional authentication attempts.
+- Blocked or restricted the suspicious source IP based on organizational security policies (where applicable).
+- Verified that no user accounts were successfully compromised.
+- Recommended password resets for targeted accounts as a precautionary measure.
+- Confirmed that Multi-Factor Authentication (MFA) was enabled for affected users where applicable.
+- Increased monitoring for similar authentication events to detect repeated attack attempts.
+
