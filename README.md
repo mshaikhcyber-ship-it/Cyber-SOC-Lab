@@ -184,3 +184,48 @@ T1110.003
 | CS-008 | Malware Execution Investigation | Malware | High | T1204 | 🚧 Planned |
 | CS-009 | PowerShell Suspicious Activity | Execution | High | T1059.001 | 🚧 Planned |
 | CS-010 | Privilege Escalation Investigation | Privilege Escalation | Critical | T1068 | 🚧 Planned |
+
+# 🗺️ Cyber-SOC-Lab Roadmap
+
+## Phase 1 – Enterprise SOC Foundations ✅
+
+- [x] Repository Setup
+- [x] SOC Case Study Template
+- [x] Password Spraying Investigation (CS-001)
+
+---
+
+## Phase 2 – SOC Case Studies 🚧
+
+- [ ] CS-002 – Ransomware Investigation
+- [ ] CS-003 – Insider Threat Investigation
+- [ ] CS-004 – Data Exfiltration Investigation
+- [ ] CS-005 – Phishing Investigation
+- [ ] CS-006 – Brute Force Investigation
+
+---
+
+## Phase 3 – Detection Engineering
+
+- [ ] Sigma Rules
+- [ ] Detection Use Cases
+- [ ] Correlation Rules
+- [ ] SIEM Detection Logic
+
+---
+
+## Phase 4 – Threat Hunting
+
+- [ ] IOC Hunting
+- [ ] MITRE ATT&CK Hunts
+- [ ] Windows Threat Hunting
+- [ ] PowerShell Hunting
+
+---
+
+## Phase 5 – Incident Response
+
+- [ ] IR Playbooks
+- [ ] Malware Analysis
+- [ ] Digital Forensics Basics
+- [ ] Lessons Learned Reports
