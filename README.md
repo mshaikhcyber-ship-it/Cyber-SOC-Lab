@@ -1,39 +1,36 @@
-# Cyber SOC Lab
+# 🛡️ Cyber SOC Lab
 
-Welcome to my Enterprise SOC learning and investigation repository.
-
-## Objective
-
-This repository documents my practical SOC journey, including:
-
-- Security Alert Investigation
-- Incident Triage
-- Threat Analysis
-- MITRE ATT&CK Mapping
-- IOC Analysis
-- Vulnerability Analysis
-- Detection Engineering Notes
-- SOC Case Studies
-
-> All investigations are based on lab simulations or sanitized enterprise scenarios. No confidential organizational information is included.
+> Enterprise Security Operations | Threat Detection | Incident Response | Blue Team Knowledge Base
 
 ---
 
-## Technologies
+## 📌 About
 
-- Seceon SIEM
-- Trellix EDR
-- Tenable.SC
-- MotaData
-- Windows Security
-- MITRE ATT&CK
-- VirusTotal
-- Any.Run
-- Hybrid Analysis
+Welcome to **Cyber SOC Lab**, my professional Security Operations portfolio documenting real-world SOC concepts, investigation methodologies, threat analysis, detection engineering, and incident response.
+
+This repository is built as a long-term cybersecurity knowledge base and contains practical case studies based on sanitized enterprise scenarios.
 
 ---
 
-## Author
+## 🎯 Objectives
 
-**Muzaffar Moosa**
-SOC Analyst | Blue Team
+- Build a professional SOC portfolio
+- Document real-world investigations
+- Improve Blue Team skills
+- Learn Detection Engineering
+- Practice Threat Hunting
+- Share cybersecurity knowledge through OxNeural
+
+---
+
+## 🚀 Current Progress
+
+- ✅ SOC Case Studies
+- 🔄 Threat Hunting
+- 🔄 Detection Engineering
+- 🔄 Incident Response Playbooks
+- 🔄 MITRE ATT&CK Mapping
+- 🔄 Windows Security
+- 🔄 IOC Repository
+
+---
