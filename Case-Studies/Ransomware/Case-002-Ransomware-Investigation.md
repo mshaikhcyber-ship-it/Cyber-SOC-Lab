@@ -82,12 +82,16 @@ Ransomware is one of the most damaging cyber threats affecting enterprises today
 - Threat Intelligence lookup results
 - Endpoint isolation records
 # Indicators of Compromise (IOC)
-Type	Value
-IP	
-Domain	
-URL	
-Hash	
-Process	
+| IOC Type | Value | Status |
+|----------|-------|--------|
+| File Hash (SHA256) | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | Malicious |
+| Ransom Note | README.txt / RECOVER_FILES.txt | Detected |
+| Encrypted File Extension | .locked / .encrypted | Confirmed |
+| Suspicious Process | ransomware.exe (Example) | Detected |
+| Command Line | vssadmin delete shadows | Suspicious |
+| Registry Changes | Persistence Keys Modified | Observed |
+| Network Connection | Suspicious External IP | Investigated |
+| Endpoint Status | Isolated | Completed |	
 # MITRE ATT&CK Mapping
 Technique ID	Technique
 # Root Cause
