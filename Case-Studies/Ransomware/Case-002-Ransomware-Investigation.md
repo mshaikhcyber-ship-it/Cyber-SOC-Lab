@@ -134,8 +134,14 @@ Based on the investigation, the incident was classified as **Critical** due to t
 - Validate that Multi-Factor Authentication (MFA) is enabled for privileged and remote access accounts.
 - Conduct user awareness training to reduce phishing and malware infection risks.
 # Detection Improvement
-Explain how this attack could be detected faster or prevented in the future.
+To improve the detection and response to ransomware attacks, the following enhancements are recommended:
 
+- Develop SIEM correlation rules to detect abnormal file encryption behavior across multiple endpoints.
+- Enable real-time alerts for mass file modifications, shadow copy deletion, and ransomware-related command execution.
+- Integrate threat intelligence feeds to automatically identify known ransomware indicators.
+- Configure behavioral detection policies within Trellix EDR to identify suspicious process execution and encryption activity.
+- Regularly review and tune detection rules to reduce false positives while maintaining effective threat visibility.
+- Conduct ransomware simulation exercises to validate detection and incident response capabilities.
 # Lessons Learned
 # References
 # Analyst Notes
