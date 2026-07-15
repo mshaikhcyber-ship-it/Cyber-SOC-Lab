@@ -125,6 +125,14 @@ Based on the investigation, the incident was classified as **Critical** due to t
 - Preserved forensic evidence before initiating cleanup activities.
 - Escalated the incident to the Incident Response (IR) team for eradication and recovery.
 # Remediation
+- Remove the ransomware payload and any associated malicious files from affected systems.
+- Restore affected systems and business data from verified, clean backups.
+- Apply the latest operating system and application security patches.
+- Reset passwords for affected and privileged accounts.
+- Perform a complete endpoint scan to ensure no persistence mechanisms remain.
+- Review and strengthen endpoint protection policies within Trellix EDR.
+- Validate that Multi-Factor Authentication (MFA) is enabled for privileged and remote access accounts.
+- Conduct user awareness training to reduce phishing and malware infection risks.
 # Detection Improvement
 Explain how this attack could be detected faster or prevented in the future.
 
