@@ -1,3 +1,4 @@
+# Case Study #002 – Ransomware Investigation
 1. Executive Summary
 Provide a concise overview of the incident, including what happened, how it was detected, and the overall outcome.
 
