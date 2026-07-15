@@ -60,7 +60,15 @@ Ransomware is one of the most damaging cyber threats affecting enterprises today
 
 8. Documented investigation findings, collected forensic evidence, and escalated the incident to the Incident Response team for containment, eradication, and recovery.
 # Timeline of Events
-Time	Activity
+| Time (UTC) | Event |
+|------------|-------|
+| 10:05 | Seceon SIEM generated a critical ransomware alert. |
+| 10:07 | SOC Analyst acknowledged the incident and initiated investigation. |
+| 10:12 | Trellix EDR identified suspicious encryption processes on affected endpoints. |
+| 10:18 | Impact assessment confirmed multiple encrypted files on compromised systems. |
+| 10:25 | Affected endpoints were isolated to prevent lateral movement. |
+| 10:35 | Incident was escalated to the Incident Response team for containment and recovery. |
+| 10:50 | Investigation findings and evidence were documented. |
 # Evidence Collected
 Logs
 Alerts
