@@ -143,6 +143,11 @@ To improve the detection and response to ransomware attacks, the following enhan
 - Regularly review and tune detection rules to reduce false positives while maintaining effective threat visibility.
 - Conduct ransomware simulation exercises to validate detection and incident response capabilities.
 # Lessons Learned
+- Early detection and rapid endpoint isolation are critical to limiting ransomware spread.
+- Endpoint Detection and Response (EDR) solutions provide valuable visibility into malicious process execution and encryption behavior.
+- Strong backup and disaster recovery strategies significantly reduce business impact during ransomware incidents.
+- Multi-Factor Authentication (MFA), regular patch management, and user awareness training help reduce the risk of initial compromise.
+- Continuous monitoring, threat hunting, and SIEM correlation rules improve the organization's ability to detect ransomware at an early stage.
 # References
 # Analyst Notes
 Include personal observations, challenges faced during investigation, and key takeaways.
