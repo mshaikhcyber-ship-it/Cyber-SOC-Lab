@@ -35,11 +35,14 @@ Ransomware is a type of malware designed to encrypt files, databases, or entire 
 
 Ransomware is one of the most damaging cyber threats affecting enterprises today. A successful attack can result in operational downtime, financial loss, reputational damage, regulatory penalties, and data breaches. Early detection and rapid containment are essential to minimize business impact.
 # Detection Source
-SIEM:
-EDR:
-IDS/IPS:
-User Report:
-Other:
+| Source | Details |
+|--------|---------|
+| SIEM | Seceon SIEM generated alerts indicating suspicious encryption activity, abnormal file modifications, and potential ransomware behavior. |
+| EDR | Trellix EDR detected suspicious process execution, file encryption activity, and endpoint behavioral anomalies. |
+| Windows Event Logs | Security and System logs were reviewed to identify process execution, service creation, and authentication events. |
+| File Activity | Rapid file modifications, encrypted file extensions, and abnormal file access patterns were analyzed. |
+| Threat Intelligence | File hashes, IP addresses, and related Indicators of Compromise (IOCs) were validated using trusted threat intelligence sources. |
+| Analyst Validation | The SOC analyst correlated SIEM alerts, EDR telemetry, endpoint logs, and user activity to confirm the ransomware incident. |
 # Investigation Process
 Document the investigation step-by-step.
 # Timeline of Events
