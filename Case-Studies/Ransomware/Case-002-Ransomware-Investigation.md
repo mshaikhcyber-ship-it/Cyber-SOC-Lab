@@ -1,4 +1,18 @@
 # Case Study #002 – Ransomware Investigation
+| Field | Value |
+|-------|-------|
+| Case ID | CS-002 |
+| Category | Malware |
+| Attack Type | Ransomware |
+| Severity | Critical |
+| Case Status | Under Investigation |
+| MITRE ATT&CK | T1486 |
+| Primary Platform | Seceon SIEM |
+| Supporting Tools | Trellix EDR, Windows Security Logs |
+| Analyst | Muzaffar Moosa |
+| Report Version | 1.0 |
+
+
 1. Executive Summary
 Provide a concise overview of the incident, including what happened, how it was detected, and the overall outcome.
 
