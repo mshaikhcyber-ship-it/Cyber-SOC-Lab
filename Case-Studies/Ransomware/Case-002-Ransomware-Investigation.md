@@ -158,4 +158,12 @@ To improve the detection and response to ransomware attacks, the following enhan
 - Trellix Endpoint Security Documentation
 - Enterprise SOC Incident Response Best Practices
 # Analyst Notes
-Include personal observations, challenges faced during investigation, and key takeaways.
+This investigation demonstrated the importance of rapid detection and coordinated incident response during ransomware incidents. Correlating SIEM alerts with EDR telemetry enabled faster validation of malicious activity and improved confidence in containment decisions.
+
+The case also reinforced that ransomware investigations extend beyond malware detection. Analysts must assess the initial access vector, potential lateral movement, credential compromise, and business impact before declaring the incident contained.
+
+**Case Status:** True Positive
+
+**Severity:** Critical
+
+**Analyst Recommendation:** Continue proactive threat hunting, improve ransomware-specific detection rules, validate backup recovery procedures, and conduct regular incident response tabletop exercises to strengthen organizational resilience.
