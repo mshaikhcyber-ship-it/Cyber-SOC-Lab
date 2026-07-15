@@ -118,6 +118,12 @@ Potential business impacts included:
 
 Based on the investigation, the incident was classified as **Critical** due to the potential business impact associated with ransomware attacks.
 # Containment Actions
+- Immediately isolated affected endpoints using Trellix EDR containment capabilities.
+- Blocked identified Indicators of Compromise (IOCs), including malicious file hashes and suspicious IP addresses.
+- Disabled compromised user accounts until the investigation was completed.
+- Restricted lateral movement by reviewing SMB access, RDP sessions, and privileged account activity.
+- Preserved forensic evidence before initiating cleanup activities.
+- Escalated the incident to the Incident Response (IR) team for eradication and recovery.
 # Remediation
 # Detection Improvement
 Explain how this attack could be detected faster or prevented in the future.
