@@ -149,5 +149,13 @@ To improve the detection and response to ransomware attacks, the following enhan
 - Multi-Factor Authentication (MFA), regular patch management, and user awareness training help reduce the risk of initial compromise.
 - Continuous monitoring, threat hunting, and SIEM correlation rules improve the organization's ability to detect ransomware at an early stage.
 # References
+- MITRE ATT&CK – T1486 (Data Encrypted for Impact)
+- MITRE ATT&CK – T1059 (Command and Scripting Interpreter)
+- MITRE ATT&CK – T1562 (Impair Defenses)
+- NIST Cybersecurity Framework (CSF)
+- CISA Ransomware Guide
+- Microsoft Security Documentation – Ransomware Protection
+- Trellix Endpoint Security Documentation
+- Enterprise SOC Incident Response Best Practices
 # Analyst Notes
 Include personal observations, challenges faced during investigation, and key takeaways.
