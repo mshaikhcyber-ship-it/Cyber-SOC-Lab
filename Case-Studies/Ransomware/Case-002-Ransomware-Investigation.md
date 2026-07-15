@@ -70,12 +70,17 @@ Ransomware is one of the most damaging cyber threats affecting enterprises today
 | 10:35 | Incident was escalated to the Incident Response team for containment and recovery. |
 | 10:50 | Investigation findings and evidence were documented. |
 # Evidence Collected
-Logs
-Alerts
-Screenshots
-Process Tree
-Command Line
-Network Connections
+- Seceon SIEM ransomware alerts
+- Trellix EDR detection logs
+- Windows Security Event Logs
+- Windows System Event Logs
+- Suspicious process execution details
+- File encryption activity logs
+- File hash values
+- Network connection logs
+- Authentication logs
+- Threat Intelligence lookup results
+- Endpoint isolation records
 # Indicators of Compromise (IOC)
 Type	Value
 IP	
