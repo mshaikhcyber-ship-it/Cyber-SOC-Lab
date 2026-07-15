@@ -105,6 +105,18 @@ The investigation determined that the ransomware attack originated after the exe
 
 The incident highlighted weaknesses that could contribute to ransomware attacks, including compromised credentials, unpatched systems, phishing-based initial access, or unauthorized execution of malicious files. Although the exact initial access vector was not confirmed in this sanitized case study, the investigation emphasized the importance of layered security controls, endpoint protection, timely patch management, and user awareness.
 # Impact Assessment
+The ransomware activity impacted multiple enterprise endpoints and resulted in unauthorized file encryption. Immediate containment actions limited further propagation and reduced the overall business impact.
+
+Potential business impacts included:
+
+- Temporary disruption of business operations
+- Loss of access to critical business files
+- Risk of data exfiltration before encryption
+- Financial losses due to operational downtime
+- Reputational damage
+- Potential regulatory and compliance implications
+
+Based on the investigation, the incident was classified as **Critical** due to the potential business impact associated with ransomware attacks.
 # Containment Actions
 # Remediation
 # Detection Improvement
