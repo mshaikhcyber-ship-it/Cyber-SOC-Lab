@@ -93,7 +93,13 @@ Ransomware is one of the most damaging cyber threats affecting enterprises today
 | Network Connection | Suspicious External IP | Investigated |
 | Endpoint Status | Isolated | Completed |	
 # MITRE ATT&CK Mapping
-Technique ID	Technique
+| Technique ID | Technique | Why It Applies |
+|--------------|-----------|----------------|
+| T1486 | Data Encrypted for Impact | The ransomware encrypted enterprise files to disrupt business operations. |
+| T1059 | Command and Scripting Interpreter | The malware executed commands to perform malicious actions on the host. |
+| T1562 | Impair Defenses | Security controls may be disabled or bypassed before encryption begins. |
+| T1021 | Remote Services | Attackers may use remote services to spread laterally across the environment. |
+| T1078 | Valid Accounts | Compromised credentials can be used to gain and maintain unauthorized access. |
 # Root Cause
 # Impact Assessment
 # Containment Actions
