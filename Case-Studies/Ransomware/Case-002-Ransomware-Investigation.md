@@ -44,7 +44,21 @@ Ransomware is one of the most damaging cyber threats affecting enterprises today
 | Threat Intelligence | File hashes, IP addresses, and related Indicators of Compromise (IOCs) were validated using trusted threat intelligence sources. |
 | Analyst Validation | The SOC analyst correlated SIEM alerts, EDR telemetry, endpoint logs, and user activity to confirm the ransomware incident. |
 # Investigation Process
-Document the investigation step-by-step.
+1. Received a critical ransomware alert from Seceon SIEM indicating suspicious encryption activity across multiple endpoints.
+
+2. Reviewed alert details, including affected hosts, user accounts, timestamps, process names, and file modification events.
+
+3. Correlated SIEM alerts with Trellix EDR telemetry to identify the initial malicious process responsible for file encryption.
+
+4. Verified whether the ransomware attempted lateral movement by reviewing authentication logs, SMB connections, and remote execution activities.
+
+5. Identified Indicators of Compromise (IOCs), including suspicious file hashes, process names, command-line activity, and network connections.
+
+6. Isolated affected endpoints using EDR containment capabilities to prevent further encryption and lateral spread.
+
+7. Assessed the scope of impact by identifying encrypted files, affected systems, privileged accounts, and critical business assets.
+
+8. Documented investigation findings, collected forensic evidence, and escalated the incident to the Incident Response team for containment, eradication, and recovery.
 # Timeline of Events
 Time	Activity
 # Evidence Collected
