@@ -14,7 +14,11 @@
 
 
 # Executive Summary
-Provide a concise overview of the incident, including what happened, how it was detected, and the overall outcome.
+A ransomware attack was detected after multiple security alerts indicated suspicious file encryption activity across several enterprise endpoints. The incident was identified through continuous monitoring and immediately investigated to determine the scope of the attack, affected systems, and potential business impact.
+
+The investigation focused on endpoint telemetry, security alerts, authentication events, file activity, and indicators of compromise to determine the attack timeline and containment requirements. Immediate response actions were initiated to isolate affected systems, prevent lateral movement, and support recovery efforts.
+
+> **Note:** This case study is based on a sanitized enterprise scenario. All sensitive organizational information has been removed for educational purposes.
 
 # Attack Overview
 Describe the attack technique, attacker objective, and affected assets.
